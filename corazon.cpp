@@ -7,42 +7,34 @@ int main() {
     int cut = 2;
     int z = dim-cut;
 
-
-    while (true) {
-        for (int x = cut; x < dim; x++) {
-            for (int y = 0; y < z ; y++) {
-                cout << "  ";
-            }
-            for (int a = 0; a < x*2; a++) {
-                cout << "* ";
-            }
-            for (int s = 0; s < z*2; s++) {
-                cout << "  ";
-            }
-            for (int w = 0; w < x*2; w++) {
-                cout << "* ";
-            }
-            z--;
-            cout << endl;
+    for (int x = cut; x < dim; x++) {
+        for (int y = 0; y < z ; y++) {
+            cout << "  ";
         }
-        
-        z = dim*2;
-
-        for (int i = 0; i < dim*2; i++){
-            for (int x = 0; x < i; x++) {
-                cout << "  ";
-            }
-            for (int k = 0; k < z*2; k++) {
-                cout << "* ";
-            }
-            z--;
-            cout << endl;
+        for (int a = 0; a < x*2; a++) {
+            cout << "* ";
         }
-        cout.flush();
-        Sleep(400);
-        system("cls");
+        for (int s = 0; s < z*2; s++) {
+            cout << "  ";
+        }
+        for (int w = 0; w < x*2; w++) {
+            cout << "* ";
+        }
+        z--;
+        cout << endl;
     }
-    
+        
+    z = dim*2;
 
+    for (int i = 0; i < dim*2; i++){
+        for (int x = 0; x < i; x++) {
+            cout << "  ";
+        }
+        for (int k = 0; k < z*2; k++) {
+            cout << "* ";
+        }
+        z--;
+        cout << endl;
+    }
     return 0;
 }

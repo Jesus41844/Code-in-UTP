@@ -48,5 +48,9 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "vcpkg.target.preferSystemLibs": true,
+    "cmake.configureArgs": [
+        "-DVCPKG_PREFER_SYSTEM_LIBS=ON"
+    ]
 }
