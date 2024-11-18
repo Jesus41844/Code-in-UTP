@@ -16,13 +16,10 @@ void dibujarTanque(int nivel) {
 
 int main() {
     int nivel_actual = 0;
-    while (true) {
-        int nivel_nuevo;
+    int nivel_nuevo;
+    while (nivel_nuevo != -1) {
         cout << "Ingrese el nivel de agua (0-10) o -1 para salir: ";
         cin >> nivel_nuevo;
-        if (nivel_nuevo == -1) {
-            break;
-        }
 
         if (nivel_nuevo >= 0 && nivel_nuevo <= 10) {
             if (nivel_nuevo > nivel_actual) {
