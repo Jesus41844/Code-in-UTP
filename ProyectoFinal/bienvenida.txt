@@ -1,5 +1,5 @@
 Menu:
-Pizza(Maximo 4 sabores por pizza),
+Pizza(Maximo 4 sabores por pizza):
     Queso
     Jamon
     Peperoni
@@ -7,4 +7,15 @@ Pizza(Maximo 4 sabores por pizza),
     Hawaiana
     Napolitana
 
+Bebidas:
+    Coca-Cola
+    Pepsi
+    Sprite
+    Fanta
+    Naranja
+    Mango
+    Piña
+    Fresa
+
 Que desea ordenar el dia de hoy?
+p = pizza; b = Bebidas
