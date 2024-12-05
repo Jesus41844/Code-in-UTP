@@ -24,14 +24,14 @@ void bienvenida(){
         }
     }
     else {
-        perror("Error al abrir el archivo");
+        cout << "Error al abrir el archivo";
     }
     readfile.close();
 }
 
 void pedidos(const Clientes& cliente){
     editFile.open("C:/Users/j3sus/OneDrive/Documents/Programacion/Code/ProyectoFinal/pedidos.txt", ios::app);
-    if (editFile.is_open()) {
+    if (editFile.is_open()) {     
         editFile << cliente.nombre << endl << cliente.pedido << endl << cliente.pizza << endl << cliente.bebidas << endl;
         editFile.close();
         string word;
@@ -43,7 +43,7 @@ void pedidos(const Clientes& cliente){
 int main() {
     Clientes Cliente;
     char PizzBeb, seguir;
-    int contador = 0;
+    int contador = 1;
     stringstream sc;
     bool continuar = true;
     cout << "Bienvenido a McDeallo" << endl << "Cual es su nombre: ";

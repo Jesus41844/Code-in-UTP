@@ -1,0 +1,8 @@
+Bienvenido a Nonna's Pizza
+
+Menu
+Pizzas                              Bebidas
+    1. Queso.......$5.00              5. Coca Cola......$1.00
+    2. Pepperoni...$4.50              6. Fanta..........$1.00
+    3. Hawaiana....$7.00              7. Limonada.......$4.00
+    4. Napolitana..$9.00              8. Pina Colada....$5.50
